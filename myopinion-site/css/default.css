@@ -1,0 +1,231 @@
+html{
+	margin: 0;
+}
+
+
+header{
+	
+	background-image:url("../images/light.jpg"); 
+	background-size:cover;
+	height:10%;
+	filter: brightness(0.998);
+	width:100%;
+	font-family:'Dancing Script', cursive;
+	padding-left: 10px;
+	margin: 0;
+		}
+	
+	#heading{
+	font-weight:lighter; 
+	position:relative;
+	color:#FADDB4; 
+	bottom:30px;
+	left:90px;
+	font-size: 1.8rem;
+	max-width:50%;
+}
+#logo{
+	margin: 5% 3% 28% 3%;
+}
+
+nav {
+	
+	position:relative; color:#F8F0D3; 
+    font-size: 25px;left:16%; bottom:40px; margin-top: 60px; 
+	max-width:70%;
+}
+nav a{
+    display: inline-block;
+    position: relative;
+}
+#topright{
+	position: absolute; top: 10px; color:#ffffff;
+	float:right;
+	font-family:'Dancing Script', cursive;
+	background:none;
+	border:none;
+	font-size: 1rem;
+	margin: 0;
+	
+	
+}
+#topright:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+nav a:hover {
+    color:#FAEDA9 ;
+	text-decoration: underline;
+	cursor:pointer;
+}
+a:hover {
+    
+	text-decoration: underline;
+	cursor:pointer;
+}
+.clear{
+	clear: both;
+}
+
+section{
+
+	width: 98%; opacity:0.99;
+	padding: 10px;
+	
+	}
+
+h1{
+	font-weight:lighter; 
+	color:#ffffff ; 
+	font-size: 1.8rem;
+	font-family: 'Dancing Script', cursive;
+	
+}
+
+#about{
+	color:#ffffff;
+	 font-family: 'Patrick Hand', cursive;
+	 font-size: 1rem;
+     max-width:79%;
+	 position:sticky;
+	 left: 150px;
+	
+		}
+#abou{
+	color:#ffffff;
+	 font-family: 'Patrick Hand', cursive;
+	 font-weight:ligter;
+	 font-size: 1rem;
+    
+	 position:sticky;
+	 left: 150px;
+}
+.PostsEX{
+			max-width: 95%;
+			display:inline-block; 
+			opacity: 0.98; 
+			border-radius: 10px; 
+			margin-left: 27px;
+			position:sticky;
+		
+		}
+.PostsEX h1{
+		margin-left: 20px; 
+		font-family: 'Patrick Hand', cursive;
+	 	font-weight:ligter;
+		 font-size: 2rem;
+		color:#ffffff;
+	
+		}
+.content{
+			background:#000000; 
+			float: left; 
+			border-radius:7px; 
+			opacity:0.99; 
+			width:25%;
+			padding: 2%; 
+			margin: 3% 0 3% 3%; 
+			border: 1px solid #ffffff;
+				
+		}
+		
+#subject{
+			overflow:hidden; 
+			height:200px; 
+			border-radius: 5px;
+
+		}
+.opinion{
+background-color: #ffffff; 
+border:#000000 thin solid; 
+border-radius:10px; 
+padding:5px;
+height:30%;
+
+		}
+		
+.opinion p{
+	height:80px; 
+	overflow:auto; 
+	font-size: 15px}
+.opinion a{
+			font-size:10px; 
+			float:right; 
+			font-family:'Patrick Hand', cursive;; 
+			margin-right: 5px;
+			font-weight: bolder;
+		}
+#opinionSymb{
+	float: left;
+	font-size: 18px ; 
+	margin-left:10px;
+	color: #ffffff;}
+
+.shareSymbols{
+			margin-right:3px;
+			width:10;
+		}	
+.box{
+			width:0;
+			height:0;
+			background:white;
+			visibility: hidden;
+			}
+		
+#toggle1:checked ~ .box{
+	
+	height:40px;
+	visibility: visible; 
+	border-radius: 10px;
+	margin-top:10px; width:90%;font-size: 10px
+				
+		}
+			
+.sharebuttn{visibility: hidden}
+#toggle1:checked ~ .sharebuttn{visibility: visible}
+			
+
+		
+.share{
+width:0;
+height:0;
+visibility: hidden;
+}
+#toggle2:checked ~ .box{
+	
+	height:40px;
+	visibility: visible; 
+	border-radius: 10px;
+	margin-top:10px; width:90%;font-size: 10px
+	
+		}
+
+.sharebuttn{visibility: hidden}
+#toggle2:checked ~ .sharebuttn{visibility: visible}
+
+#toggle3:checked ~ .box{
+	
+	height:40px;
+	visibility: visible; 
+	border-radius: 10px;
+	margin-top:10px; width:90%;font-size: 10px;
+		}
+.sharebuttn{visibility: hidden}
+#toggle3:checked ~ .sharebuttn{visibility: visible}
+
+		
+.ending{
+		border:#ffffff thick double; background-color:#0F0E0D; color:#ffffff; font-family:'Patrick Hand', cursive; font-size: 25px; width: 98%; opacity:0.99;	
+		}
+		
+footer{
+			position:relative; background-position:top; background-image:url("../images/light.jpg"); background-size:cover; min-width: 100%; height:200px;  filter:brightness(0.9); color:#ffffff;padding:30px 10px;
+		}
+#follow{
+		float:left; display:inline-block;font-size: 18px;
+		}
+#copyright{
+			position:absolute; bottom:20px;left:10px; font-weight: lighter; 
+		}
+		form input{border-radius:15px; padding:5px 20px 5px 20px; color:#ffffff; background-color:#0F0E0D;  font-family:'Action Man Bold', arial; font-size: 10px }
+		
